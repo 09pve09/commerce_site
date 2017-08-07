@@ -1,4 +1,4 @@
-# my_awesome_commerce_site
+# my_awesome_ecommerce_site
 
 A website with listing ads.
 
@@ -42,3 +42,5 @@ Also, i used the reduxforms for validating and submitting the login form.
 Axios was used for making an ajax requests to the local API server(using promises).
 
 I was trying to focus more on retrieveing and displaying the data, that i was getting, and decided to go with a simple responsive design. Stylings for most of the time were made with a bootstrap.
+
+Also, for a more oficient data storing, i changed the state data structure from the array to the object< where the key value pair was a advertisement_id and it s whole object.
