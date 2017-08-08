@@ -8,6 +8,7 @@ export default class RootIndex extends Component{
   }
 
   render(){
+    console.log(this.props);
     return(
     <div className='intro-background'>
       <div className='intro'>

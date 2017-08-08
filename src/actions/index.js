@@ -34,3 +34,22 @@ export function fetchAd(advertisement_id){
     payload: request
   };
 }
+//
+export function LoginUser(values) {
+  return {
+    type: LOGIN_USER,
+    payload: values
+  }
+}
+
+// export function LoginUser(values, callback) {
+//   const new_promise = new Promise( (resolve, reject) => {
+//     resolve((values) => {
+//       return{
+//         type: FETCH_SINGLE_AD,
+//         payload: values
+//       };
+//     })
+//   })
+//   new_promise.then(callback)
+// };

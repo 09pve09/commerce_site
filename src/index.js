@@ -24,7 +24,7 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
       <div className='height-max'>
-        <Navbar />
+        <Route path="/" component={Navbar} />
         <Switch>
           <Route path="/ads/:advertisement_id" component={AdsShow} />
           <Route path="/ads" component={AdsIndex} />
