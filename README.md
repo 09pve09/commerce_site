@@ -33,7 +33,7 @@ Note: The actual server is running on localhost:3000, while the APIserver is run
 
 ### Other
 
-This is my first project that i have built using React+Redux.
+This is a project that i have built using React+Redux.
 
 Getting all the components together and understanding the concepts of working these two libraries together, was indeed the hardest part.
 
